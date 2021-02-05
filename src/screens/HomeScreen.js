@@ -1,11 +1,11 @@
 import React from "react";
 import "./HomeScreen.css";
 
-import Banner from "./Banner";
-import Nav from "./Nav";
-import Row from "./Row"
+import Banner from "../Banner";
+import Nav from "../Nav";
+import Row from "../Row"
 
-import requests from './Requests'
+import requests from '../Requests'
 
 function HomeScreen() {
   return (

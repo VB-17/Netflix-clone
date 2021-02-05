@@ -1,0 +1,106 @@
+.loginScreen {
+    position: relative;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.8) 100%), url('https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.loginScreen__header {
+    background: none;
+    display: flex;
+    width: 95%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.loginScreen__button {
+    background-color: #e50914;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.loginScreen__logo {
+    width: 120px;
+}
+
+.loginScreen__body {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.loginScreen__body h1 {
+    text-shadow: 1px 1px black;
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body> h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.loginScreen__body>h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.loginScreen__input{
+    margin: 20px;
+}
+
+.loginScreen__input > form > input{
+    padding: 16px;
+    outline-width: 0;
+    height: 45px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen__getStarted{
+    padding: 13.6px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    .loginScreen__body{
+        top: 20%;
+    }
+    .loginScreen__body h1{
+        font-size: 2.3rem;
+    }
+    .loginScreen__body> h2{
+        font-size: 1.5rem;
+    }
+    .loginScreen__body> h3{
+        font-size: 1.1rem;
+    }
+    .loginScreen__input > form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .loginScreen__input > form > input{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .loginScreen__getStarted{
+        width: 100%;
+    }
+}
