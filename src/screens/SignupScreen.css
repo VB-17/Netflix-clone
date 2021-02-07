@@ -34,9 +34,16 @@
 .signupScreen__loginBtn{
     background-color: #e50914;
 }
+.signupScreen__loginBtn:hover{
+    background-color: #a20a0a;
+}
 
 .signupScreen__googleBtn{
     background-color: #323232;
+}
+
+.signupScreen__googleBtn:hover{
+    background-color: rgb(37, 37, 37);
 }
 
 .signupScreen > form > h1{

@@ -1,6 +1,7 @@
 .profileScreen{
-    height: 100vh;
+    min-height: 100vh;
     color: white;
+    
 }
 
 .profileScreen__body{
@@ -8,11 +9,7 @@
     flex-direction: column;
     margin: 0 auto;
     padding-top: 10%;
-    max-width: 800px;
-}
-
-.profileScreen__body > h1{
-    font-size: 2rem;
+    max-width: 600px;
 }
 
 .profileScreen__info{
@@ -36,7 +33,7 @@
 }
 
 .profileScreen__body > h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     border-bottom: 1px solid #282c2d;
     margin-bottom: 20px;
@@ -62,3 +59,4 @@
     border-bottom: 1px solid #282c2d;
     padding-bottom: 10px;
 }
+

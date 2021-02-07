@@ -1,0 +1,28 @@
+.plansScreen__plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.plansScreen__plan:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, .1);
+}
+
+.plansScreen__plan > button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: .8rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.plansScreen__info > h5{
+    font-weight: 400;
+}
+
+.plansScreen__plan--disabled > button{
+    background-color: gray !important;
+}

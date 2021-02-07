@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*:active{
+  outline: none;
+}
+
 .App{
   background: #111;
   min-height: 100vh;

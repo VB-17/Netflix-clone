@@ -23,6 +23,11 @@
     cursor: pointer;
 }
 
+.loginScreen__button:hover{
+    background-color: #a20a0a;
+}
+
+
 .loginScreen__logo {
     width: 120px;
 }
@@ -67,8 +72,9 @@
 }
 
 .loginScreen__getStarted{
-    padding: 13.6px 20px;
+    padding: 13.6px 25px;
     font-size: 1rem;
+    border-radius: 5px;
     color: white;
     background-color: #e50914;
     border: none;
@@ -76,6 +82,9 @@
     cursor: pointer;
 }
 
+.loginScreen__getStarted:hover{
+    background-color: #a20a0a;
+}
 
 @media screen and (max-width: 600px) {
     .loginScreen__body{
